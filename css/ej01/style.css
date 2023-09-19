@@ -1,0 +1,42 @@
+.cuadrado {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.rectangular{
+    width: 80px;
+    height: 50px;
+    margin-right: 10px;
+    border-radius: 0;
+}
+
+.circular{
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+
+
+.fila {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+
+
+/* ------------------------- */
+.rojo {
+    background-color: red;
+    cursor: pointer;
+}
+.azul {
+    background-color: blue;
+    cursor: pointer;
+}
+.verde {
+    background-color: green;
+    cursor: pointer;
+}
