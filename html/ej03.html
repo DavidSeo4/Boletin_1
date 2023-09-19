@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Registro</title>
+</head>
+<body>
+    <h1>Formulario de Registro</h1>
+    <form action="#" method="POST" enctype="multipart/form-data">
+        <!-- Nombre -->
+        <label for="nombre">Nombre *</label>
+        <input type="text" id="nombre" name="nombre" required> <br>
+
+        <!-- Apellidos -->
+        <label for="apellidos">Apellidos *</label>
+        <input type="text" id="apellidos" name="apellidos" required><br>
+
+        <!-- Dirección -->
+        <label for="tipo_via">Tipo de Vía *</label>
+        <input type="text" id="tipo_via" name="tipo_via" required><br>
+
+        <label for="nombre_via">Nombre de la Vía *</label>
+        <input type="text" id="nombre_via" name="nombre_via" required><br>
+
+        <label for="codigo_postal">Código Postal *</label>
+        <input type="text" id="codigo_postal" name="codigo_postal" required><br>
+
+        <label for="ciudad">Ciudad *</label>
+        <input type="text" id="ciudad" name="ciudad" required><br>
+
+        <label for="provincia">Provincia *</label>
+        <input type="text" id="provincia" name="provincia" required><br>
+
+        <label for="pais">País *</label>
+        <input type="text" id="pais" name="pais" required><br>
+
+        <!-- Fecha de nacimiento -->
+        <label for="fecha_nacimiento">Fecha de Nacimiento *</label>
+        <input type="date" id="fecha_nacimiento" name="fecha_nacimiento" required><br>
+
+        <!-- Nota media en la universidad -->
+        <label for="nota_media">Nota Media en la Universidad *</label>
+        <input type="number" id="nota_media" name="nota_media" min="0" max="10" step="0.01" required><br>
+
+        <!-- Número de teléfono -->
+        <label for="telefono">Número de Teléfono *</label>
+        <input type="tel" id="telefono" name="telefono" pattern="[0-9]{9}" required><br>
+
+        <!-- Correo electrónico -->
+        <label for="correo">Correo Electrónico *</label>
+        <input type="email" id="correo" name="correo" required><br>
+
+        <!-- Contraseña -->
+        <label for="contrasena">Contraseña *</label>
+        <input type="password" id="contrasena" name="contrasena" required><br>
+
+        <label for="repetir_contrasena">Repetir Contraseña *</label>
+        <input type="password" id="repetir_contrasena" name="repetir_contrasena" required><br>
+
+        <!-- País -->
+        <label for="pais_select">Seleccionar País *</label>
+        <select id="pais_select" name="pais_select" required>
+            <option value="España">España</option>
+            <option value="Francia">Francia</option>
+            <option value="Portugal">Portugal</option>
+            <option value="Andorra">Andorra</option>
+        </select><br>
+
+        <!-- Tipo de cuenta -->
+        <label for="tipo_cuenta">Tipo de Cuenta *</label>
+        <select id="tipo_cuenta" name="tipo_cuenta" required>
+            <option value="Gratuita">Gratuita</option>
+            <option value="Básica">Básica</option>
+            <option value="Premium">Premium</option>
+        </select><br>
+
+        <!-- Descripción de la cuenta (Opcional) -->
+        <label for="descripcion_cuenta">Descripción de la Cuenta</label>
+        <textarea id="descripcion_cuenta" name="descripcion_cuenta"></textarea><br>
+
+        <!-- Sobre mí -->
+        <label for="sobre_mi">Sobre Mí</label>
+        <textarea id="sobre_mi" name="sobre_mi"></textarea><br>
+
+        <!-- Foto de perfil -->
+        <label for="foto_perfil">Foto de Perfil</label>
+        <input type="file" id="foto_perfil" name="foto_perfil"><br>
+
+        <!-- Subir CV -->
+        <label for="cv">Subir CV</label>
+        <input type="file" id="cv" name="cv"><br>
+
+        <!-- Botón de envío -->
+        <input type="submit" value="Registrarse"><br>
+    </form>
+</body>
+</html>
