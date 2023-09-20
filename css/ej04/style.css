@@ -46,38 +46,28 @@ div {
     background-color: green;
     cursor: pointer;
     border: dotted violet 3px;
-    transform: rotate(45deg);
 }
 
 .c2 {
     background-color: red;
     cursor: crosshair;
     border: dashed green 3px;
-    transform: rotate(45deg);
 }
 
 .c3 {
     background-color: yellowgreen;
     cursor: help;
     border: groove red 3px;
-    transform: rotate(45deg);
 }
 
 .c4 {
     background-color: blue;
     cursor: wait;
     border: ridge yellowgreen 3px;
-    transform: rotate(45deg);
 }
 
 .c5 {
     background-color: violet;
     cursor: move;
     border: inset blue 3px;
-    transform: rotate(45deg);
-}
-
-.c5:hover, .c4:hover, .c3:hover, .c2:hover, .c1:hover {
-    transform: rotate(0deg);
-    transition: transform 1s ease;
 }
