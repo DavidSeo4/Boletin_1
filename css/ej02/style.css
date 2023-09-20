@@ -27,31 +27,35 @@ div{
     height: 50px;
 }
 
-.rectangular{
-    width: 80px;
+.rectangular {
+    width: 50px;
     height: 50px;
-
-    border-radius: 0;
+    border-radius: 10px;
 }
 
 .circular{
     width: 50px;
     height: 50px;
-
     border-radius: 50%;
 }
 
 
-/* ------------------------- */
-.rojo {
-    background-color: red;
-    cursor: pointer;
-}
-.azul {
+td:nth-child(1) div {
     background-color: blue;
-    cursor: pointer;
 }
-.verde {
+
+td:nth-child(2) div {
     background-color: green;
-    cursor: pointer;
+}
+
+td:nth-child(3) div {
+    background-color: yellow;
+}
+
+td:nth-child(4) div {
+    background-color: orange;
+}
+
+td:nth-child(5) div {
+    background-color: red;
 }
