@@ -1,0 +1,73 @@
+table, td {
+    border: 3px solid black;
+    border-collapse: collapse;
+    margin: auto;
+}
+
+.col1 {
+    background-color: red;
+}
+
+.col2 {
+    background-color: yellowgreen;
+}
+
+.col3 {
+    background-color: blue;
+}
+
+.col4 {
+    background-color: violet;
+}
+
+.col5 {
+    background-color: green;
+}
+
+div {
+    margin: 8px;
+}
+
+.rectangular, .redondeado, .circular {
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+}
+
+.redondeado {
+    border-radius: 10px;
+}
+
+.circular {
+    border-radius: 50%;
+}
+
+.c1 {
+    background-color: green;
+    cursor: pointer;
+    border: dotted violet 3px;
+}
+
+.c2 {
+    background-color: red;
+    cursor: crosshair;
+    border: dashed green 3px;
+}
+
+.c3 {
+    background-color: yellowgreen;
+    cursor: help;
+    border: groove red 3px;
+}
+
+.c4 {
+    background-color: blue;
+    cursor: wait;
+    border: ridge yellowgreen 3px;
+}
+
+.c5 {
+    background-color: violet;
+    cursor: move;
+    border: inset blue 3px;
+}
